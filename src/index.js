@@ -1,13 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
+import { TimerProvider } from './contexts/timer.context';
+import './index.scss';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <TimerProvider>
+      <App />
+    </TimerProvider>
   </React.StrictMode>
 );
 

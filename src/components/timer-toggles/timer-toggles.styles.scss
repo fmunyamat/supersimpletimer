@@ -1,0 +1,30 @@
+.timer-toggle-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 180px;
+
+    .increment-toggle, .decrement-toggle {
+        background-color: #D9D9D9;
+        width: 180px;
+        height: 90px;
+        cursor: pointer;
+    }
+
+    .increment-toggle {
+        // margin-top: 0px;
+        border-radius: 20px 20px 0 0;
+    }
+
+    .decrement-toggle {
+        // margin-bottom: 0px;
+        border-radius: 0 0 20px 20px;
+    }
+
+    .timer-label {
+        font-family: 'jersey25', sans-serif;
+        font-size: 7rem;
+        color: #708C9A;
+    }
+}

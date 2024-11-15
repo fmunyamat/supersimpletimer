@@ -1,0 +1,14 @@
+.action-buttons {
+    display: flex;
+    justify-content: space-evenly;
+    width: 1200px;
+    margin: 100px auto auto auto;
+
+    button {
+        font-family: 'jersey25', sans-serif;
+        font-size: 50px;
+        width: 250px;
+        height: 150px;
+        border-radius: 20px;
+    }
+}
